@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--Materialize Icons-->
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Project's Title -->
+    <title>Travelpedia: Currency Exchanger</title>
+    
+</head>
+
+  <header class = "light-blue darken-2 white-text center-align">
+    <!-- Project's Logo -->
+    <img id="logo" src = "assets/img/logo.png">
+    <h5 id="date-container"></h5> 
+  </header>
+
+
+<body>
+
+  <main>
+    <!-- Modal content -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <p>Please enter a valid number to convert and try again.</p>
+      </div>
+    </div>
+    <!-- Parallax 1 -->
+    <div class="parallax-container">
+      <div class="parallax"><img id="rotating-image1"></div>
+    </div>
+
+    <!-- User Input container -->
+    <section class="section white">
+      <div class="row container">
+        <div class="user-input-container">
+          <section class = "container row">
+
+            <!--Currency Dropdown Menus-->
+            <div id="dropdown-currencies" class="row col s12">
+              <select id="source-country" class = "browser-default col s6"> </select>
+              <i class="medium material-icons arrow">arrow_forward</i>
+              <select id="destination-country" class = "browser-default col s6"> </select>
+            </div>    
+          </section>   
+              
+          <!--Amount Input Field-->
+          <section id="exchange-container" class ="container row">
+            <form class="col s12">
+                <div class="input-field col s6 offset-s3">
+                  <!-- <i class="material-icons prefix">attach_money</i> -->
+                  <textarea id="input-field" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">Enter an amount to convert</label>
+                </div>
+            </form>
+          </section>
+        </div>
+        
+        <section class="convert-container center"> <!--Added this section to keep the convert button and rate exchange together-->
+          <div id="results-container" class="align center"></div> 
+            <a id = "submit-btn" class="blue waves-effect waves-light btn-large btn hoverable align center"><i class="material-icons right">autorenew</i>Convert</a>
+        </section>
+    </section>
+
+    <!-- Parallax 1 -->
+    <div class="parallax-container">
+      <div class="parallax"><img id="rotating-image2"></div>
+    </div>
+
+    <div id="second-container" class = "row">
+
+      <!--Former currency rates container-->
+       <section id="history-container" class ="col s4">
+            <h3 class = "#ff4081 pink accent-2 center-align">History</h3>
+            <p class="italic center-align">Take a look below to see your recent currency exchange rate searches.</p>
+            <ul class="center-align" id="history-list">
+            
+            </ul>
+        </section>
+      
+      <!--Financial news container-->
+        <section id="news-container" class="col s8">
+            <h3 class="#eeff41 lime accent-2 center-align">News</h3>
+            <p class="italic">View the local stock market news for your travel destination once selection has been made above.</p>
+            <article id="article-container">
+
+            </article>
+        </section>
+      </div>
+    </main>
+</div>
+
+    <footer class = "light-blue darken-2 white-text center-align">
+      <h6>Made with love by Mauxi, Steph and Yanfang! © 2023</h6>
+    </footer>
+    
+  <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+    integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+    crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
