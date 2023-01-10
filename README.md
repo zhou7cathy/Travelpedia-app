@@ -1,4 +1,3 @@
-# Travelpedia-app
 # Travelpedia Application
 
 <img width="1379" alt="Travelpedia-app" src="https://user-images.githubusercontent.com/28996399/211513136-84630f4b-6e9f-48c2-9acf-fca01a58c9ef.png">
