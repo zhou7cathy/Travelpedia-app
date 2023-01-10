@@ -38,5 +38,4 @@ MIT
 
 ## Link to deployed application
 
-https://stephaneeh.github.io/travelpedia-app/
-
+https://zhou7cathy.github.io/Travelpedia-app/
