@@ -3,7 +3,7 @@
 <img width="1379" alt="Travelpedia-app" src="https://user-images.githubusercontent.com/28996399/211513136-84630f4b-6e9f-48c2-9acf-fca01a58c9ef.png">
 
 ## Description
-The Travelpedia App was created for international travelers who want to see the current exchange rate between their country and the country they intend to travel to, in order to decide whether to exchange money on this day. It also allows users to view the local financial news stories about the destination, so they can be aware of any possible impacts on exchange/travel.
+The Travelpedia App was created for international travellers who want to see the current exchange rate between their country and the country they intend to travel to, to decide whether to exchange money on this day. It also allows users to view the local financial news stories about the destination, so they can be aware of any possible impacts on exchange/travel.
 
 ## Usage
 
